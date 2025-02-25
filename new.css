@@ -1,0 +1,154 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*pas de marges y compris las bordures*/
+    
+}
+
+.contenu{ /*entête principale*/
+    background-color: darkslategrey;
+    display: flex;
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: cadetblue;
+}
+
+.nav{
+    position: absolute;
+    right: 0;
+    gap: 60px;
+    
+}
+
+.nav, a{
+    color: cadetblue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.corps{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background{
+    background-image: url(/coding-1853305_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.me img{
+    height: 350px;
+    width: 260px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.i_perso{
+    background-color: cadetblue;
+    margin-left: 60px;
+} 
+.i_perso, h3, p{
+    margin-top: 50px;
+}
+
+
+/*titre et parcour*/
+.titles{
+    color: darkslategrey;
+    font-size: larger;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.ph{
+     color: cadetblue;
+     background-color:  darkslategrey ;
+     border-bottom-left-radius: 12px;
+     margin-right: 5px;
+     width: 100%;
+     font-weight: bold;
+     font-size: larger;
+}
+
+
+/* 2/ section CV */
+.corps2{
+    display: flex; 
+    align-items: center;
+    flex-direction: column; /* dispo element: vertical*/
+    background-image:url(/code-1839406_1920.jpg);
+    
+}
+
+.box{
+    background-color:cadetblue;
+    height: 300px;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+/*  opacity: 1;  */
+    margin: 30px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+/*conter des img*/
+.imgs{
+
+}
+
+.imgs img{
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 50%; /*former un cercle*/
+    display: flex;
+    height: auto; /* Conserve les proportions de l'image */
+}
+
+
+<!--pied-->
+.porteurBas{
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+
+.pied{
+    background-color: darkslategrey;
+    text-align: center;
+    padding:0 ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+.contact input{
+    border-style: none;
+    margin: 10px;
+    height: 100%;
+    height: 40px;
+    background-color:cadetblue;
+}
+
+.contact label ::placeholder{
+    color: black;
+}
+
+.contact{
+    background-color: darkslategrey;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column; /* Alignez les éléments en colonne */
+    align-items: center;
+}
