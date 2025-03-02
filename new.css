@@ -36,7 +36,7 @@
 }
 
 .background{
-    background-image: url(/coding-1853305_1280.jpg);
+    background-image: url('coding-1853305_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -84,7 +84,7 @@
     display: flex; 
     align-items: center;
     flex-direction: column; /* dispo element: vertical*/
-    background-image:url(/code-1839406_1920.jpg);
+    background-image:url('code-1839406_1920.jpg');
     
 }
 
